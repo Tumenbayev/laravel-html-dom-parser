@@ -1,6 +1,6 @@
 <?php
 
-namespace Ammadeuss\LaravelHtmlDomParser;
+namespace Tumenbayev\LaravelHtmlDomParser;
 
 class Facade extends \Illuminate\Support\Facades\Facade {
 
