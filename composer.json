@@ -1,5 +1,5 @@
 {
-    "name": "ammadeuss/laravel-html-dom-parser",
+    "name": "tumenbayev/laravel-html-dom-parser",
     "description": "Laravel wrapper for the PHP Simple HTML DOM Parser package",
     "keywords": [
         "dom parser",
@@ -11,24 +11,18 @@
         "illuminate/support": "^v5.2.0",
         "kub-at/php-simple-html-dom-parser": "^1.8"
     },
-    "homepage": "https://github.com/ammadeuss/html-dom-parser",
+    "homepage": "https://github.com/tumenbayev/html-dom-parser",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Ammadeuss Raducan",
-            "email": "raducan@ammadeuss.ro"
-        }
-    ],
     "autoload": {
-        "psr-4": { "Ammadeuss\\LaravelHtmlDomParser\\": "" }
+        "psr-4": { "Tumenbayev\\LaravelHtmlDomParser\\": "" }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ammadeuss\\LaravelHtmlDomParser\\ServiceProvider"
+                "Tumenbayev\\LaravelHtmlDomParser\\ServiceProvider"
             ],
             "aliases": {
-                "HTMLDomParser": "Ammadeuss\\LaravelHtmlDomParser\\Facade"
+                "HTMLDomParser": "Tumenbayev\\LaravelHtmlDomParser\\Facade"
             }
         }
     }
